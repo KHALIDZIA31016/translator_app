@@ -12,6 +12,7 @@ import '../../widgets/back_button.dart';
 import '../../widgets/custom_mic.dart';
 import '../../widgets/custom_textBtn.dart';
 import '../../widgets/dropDown_btn.dart';
+import '../../widgets/lang_selection.dart';
 import '../../widgets/text_widget.dart';
 
 class PronunciationScreen extends StatefulWidget {
@@ -104,24 +105,17 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
           children: [
             Container(
               margin: EdgeInsets.symmetric(horizontal:  screenWidth * 0.02, vertical: screenHeight * 0.02),
-              height: 380, width: screenWidth * 0.98,color: Colors.white,
+              height: screenHeight *  0.45, width: screenWidth * 0.98,
+              color: Colors.white,
               child: Column(
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  spacing: 10,
                   children: [
                     2.asWidthBox,
                     Image.asset(AppImages.UKFlag, scale: 20,),
-                    DropdownBtn(
-                      selectedValue: _selectedValue,
-                      dropdownItems: ['Eng', 'Spanish', 'Turkish', 'Arabic', 'Hindi'],
-                      onChanged: (String? newValue) {
-                        setState(() {
-                          _selectedValue = newValue ?? 'Eng'; // Handle value change
-                        });
-                      },
-                    ),
+                    12.asWidthBox,
+                    LangSelection(),
                     Spacer(),
                     CopyBtn(controller:  _textController),
                     ShareBtn(controller: _textController),
@@ -147,8 +141,8 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                     CustomMic(),
                     7.asWidthBox,
                     CustomTextBtn(
-                      height: 50,
-                      width: 200,
+                      height: screenHeight * 0.06,
+                      width: screenWidth * 0.52,
                       textTitle: 'Pronounce',
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(topRight: Radius.circular(12), bottomRight: Radius.circular(12)),

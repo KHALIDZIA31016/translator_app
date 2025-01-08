@@ -9,6 +9,7 @@ import '../../widgets/custom_mic.dart';
 import '../../widgets/custom_textBtn.dart';
 import '../../widgets/delete_btn.dart';
 import '../../widgets/dropDown_btn.dart';
+import '../../widgets/lang_selection.dart';
 import '../../widgets/share_btn.dart';
 import '../../widgets/text_widget.dart';
 
@@ -118,19 +119,10 @@ class _CheckSpellScreenState extends State<CheckSpellScreen> {
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    spacing: 10,
                     children: [
                       2.asWidthBox,
                       Image.asset(AppImages.UKFlag, scale: 20,),
-                      DropdownBtn(
-                        selectedValue: _selectedValue,
-                        dropdownItems: ['Eng', 'Spanish', 'Turkish', 'Arabic', 'Hindi'],
-                        onChanged: (String? newValue) {
-                          setState(() {
-                            _selectedValue = newValue ?? 'Eng'; // Handle value change
-                          });
-                        },
-                      ),
+                      LangSelection(),
                       Spacer(),
                       CopyBtn(controller:  _textController),
                       ShareBtn(controller: _textController),
@@ -156,8 +148,8 @@ class _CheckSpellScreenState extends State<CheckSpellScreen> {
                       CustomMic(),
                       7.asWidthBox,
                       CustomTextBtn(
-                        height: 50,
-                        width: 200,
+                        height: screenHeight * 0.06,
+                        width: screenWidth * 0.52,
                         textTitle: 'Spell Check',
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topRight: Radius.circular(12), bottomRight: Radius.circular(12)),

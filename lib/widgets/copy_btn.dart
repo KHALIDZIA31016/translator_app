@@ -40,6 +40,7 @@ class CopyBtn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     return IconButton(
       onPressed: () {
         Clipboard.setData(
@@ -53,6 +54,7 @@ class CopyBtn extends StatelessWidget {
       icon: Icon(
         Icons.copy,
         color: Colors.blueGrey,
+        size: screenWidth * 0.05,
       ),
     );
   }

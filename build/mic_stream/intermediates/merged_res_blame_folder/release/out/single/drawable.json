@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/drawable/notification_bg.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/drawable/notification_icon_background.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/drawable/notification_bg_low.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/drawable/notification_tile_bg.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/drawable/notification_tile_bg.xml"
+    }
+]

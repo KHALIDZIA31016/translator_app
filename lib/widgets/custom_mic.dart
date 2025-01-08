@@ -9,6 +9,8 @@ class CustomMic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
     return GestureDetector(
       onTap: (){
         ScaffoldMessenger.of(context).showSnackBar(
@@ -20,7 +22,8 @@ class CustomMic extends StatelessWidget {
         );
       },
       child: Container(
-        height: 50, width: 60,
+        height: screenHeight * 0.06,
+        width: screenWidth * 0.14,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.only(topLeft: Radius.circular(12), bottomLeft: Radius.circular(12)),
             color: Colors.indigo

@@ -65,6 +65,7 @@ class DeleteBtn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     void _showDeleteConfirmationDialog() {
       showDialog(
         context: context,
@@ -97,6 +98,7 @@ class DeleteBtn extends StatelessWidget {
       icon: Icon(
         Icons.delete,
         color: Colors.blueGrey,
+        size: screenWidth * 0.054,
       ),
     );
   }

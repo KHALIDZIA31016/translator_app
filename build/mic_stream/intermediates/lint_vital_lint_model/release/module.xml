@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\home\AppData\Local\Pub\Cache\hosted\pub.dev\mic_stream-0.7.1+2\android"
+    name=":mic_stream"
+    type="LIBRARY"
+    maven="com.code.aaron.micstream:mic_stream:"
+    agpVersion="8.2.1"
+    buildFolder="D:\mnh\build\mic_stream"
+    bootClassPath="C:\Users\home\AppData\Local\Android\sdk\platforms\android-33\android.jar;C:\Users\home\AppData\Local\Android\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

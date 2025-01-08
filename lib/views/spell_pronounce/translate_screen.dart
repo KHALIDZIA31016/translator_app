@@ -161,8 +161,8 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
                         CustomMic(),
                         7.asWidthBox,
                         CustomTextBtn(
-                          height: 50,
-                          width: 200,
+                          height: screenHeight * 0.06,
+                          width: screenWidth * 0.52,
                           textTitle: 'Translate',
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(topRight: Radius.circular(12), bottomRight: Radius.circular(12)),

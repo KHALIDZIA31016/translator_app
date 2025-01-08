@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_action_tombstone.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_template_part_time.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_template_part_chronometer.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/ime_base_split_test_activity.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_template_custom_big.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/custom_dialog.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_action.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.code.aaron.micstream.mic_stream-merged_res-25:/layout/notification_template_icon_group.xml",
+        "source": "com.code.aaron.micstream.mic_stream-core-1.13.1-7:/layout/notification_template_icon_group.xml"
+    }
+]

@@ -48,6 +48,7 @@ class ShareBtn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     return IconButton(
       onPressed: () {
         final text = controller.text.trim(); // Trim whitespace for cleaner sharing
@@ -65,6 +66,7 @@ class ShareBtn extends StatelessWidget {
       icon: Icon(
         Icons.share,
         color: Colors.blueGrey,
+        size: screenWidth * 0.05,
       ),
     );
   }
